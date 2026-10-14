@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and private documents
+data/*
+!data/.gitkeep
+
+# Model checkpoints and trained weights
+checkpoints/
+weights/
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Experiment outputs
+outputs/
+runs/
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
